@@ -1,0 +1,20 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    &__content {
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        img {
+            height: 150px;
+            width: fit-content;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.recipe {
+    img {
+        width: 400px;
+    }
+}

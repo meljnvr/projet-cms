@@ -1,0 +1,19 @@
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipes__content {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.recipes__content img {
+  height: 150px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.recipe img {
+  width: 400px;
+}/*# sourceMappingURL=style.css.map */
