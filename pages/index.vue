@@ -7,7 +7,7 @@
         <Counter></Counter>
         <Username></Username>
         <Parent></Parent>
-        <li><NuxtLink :to="{name: 'blog-slug', params: {slug: 'test'}}">Blog usage</NuxtLink></li>
+        <!-- <li><NuxtLink :to="{name: 'blog-slug', params: {slug: 'recette-tarte-pommes'}}">Blog usage</NuxtLink></li> -->
         <li><NuxtLink :to="{name: 'dato-fetch'}">Dato usage</NuxtLink></li>
     </div>
 </template>
